@@ -28,8 +28,8 @@ This sample looks for images in the following paths:
 # retrieve environment variables
 ENDPOINT = 'https://cvux.cognitiveservices.azure.com/' #os.environ["VISION_TRAINING_ENDPOINT"]
 PREDENDPOINT = 'https://cvux-prediction.cognitiveservices.azure.com/'
-training_key = '5fc4d08a162b41b7aa4590bb278a3dc0' #os.environ["VISION_TRAINING_KEY"]
-prediction_key = '5b0ef266c859485badd0f59f824f0d23' #os.environ["VISION_PREDICTION_KEY"]
+training_key = os.environ["VISION_TRAINING_KEY"]
+prediction_key = os.environ["VISION_PREDICTION_KEY"]
 prediction_resource_id = '/subscriptions/fdb5d841-c563-47cd-9530-53dbd266c1fb/resourceGroups/cv-ux-rg/providers/Microsoft.CognitiveServices/accounts/cvux-Prediction' #os.environ["VISION_PREDICTION_RESOURCE_ID"]
 
 # </snippet_creds>
